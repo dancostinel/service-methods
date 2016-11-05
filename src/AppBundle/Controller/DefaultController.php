@@ -14,12 +14,6 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-        $parameters = $this->get('app_get.method.parameters')->getMethodParameters('test',$this);
-        return $this->render('default/index.html.twig',['parameters'=>$parameters]);
-    }
-
-    public function test(Request $request, $name)
-    {
-        return new Response('test');
+        return $this->render('default/index.html.twig');
     }
 }
