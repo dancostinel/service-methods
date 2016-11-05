@@ -1,4 +1,4 @@
-bundle
-======
+Service Methods
+===============
 
-A Symfony project created on November 5, 2016, 3:42 pm.
+# A Symfony 3.1 console command, which lets the user output all available methods for a service.
